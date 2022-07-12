@@ -27,7 +27,7 @@ export const eslintFeature: Feature = {
       ``,
       `/** @type {import("eslint").Linter.Config} */`,
       `module.exports = {`,
-      `  extends: [require.resolve(${JSON.stringify(moduleString)})]`,
+      `  extends: [require.resolve(${JSON.stringify(moduleString)})],`,
       `  ignorePatterns: ${JSON.stringify(ignorePatterns)}`,
       `  parserOptions: {`,
       `    project: require.resolve("./tsconfig.json"),`,
