@@ -13,12 +13,12 @@
     "tsconfig.base.json"
   ],
   "scripts": {
-    "lint": "eslint --ext js,jsx,ts,tsx .",
+    "lint": "eslint --ext js,ts,tsx .",
     "format": "prettier --write .",
     "typecheck": "tsc --noEmit",
     "build": "tsup-node src/main.ts --target=node16 --format=esm",
-    "test-manual": "esmo test/run-test.ts",
-    "test-lint": "eslint --ext js,jsx,ts,tsx test/lint",
+    "test-manual": "npx esmo test/run-test.ts",
+    "test-lint": "eslint --ext js,ts,tsx test/lint",
     "release": "pnpm build && release-it",
     "lint-fix": "pnpm lint -- --fix"
   },
