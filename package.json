@@ -1,10 +1,10 @@
 {
-  "name": "@jbabin/configs",
+  "name": "@jbabin91/configs",
   "type": "module",
   "description": "My awesome configurator of various things",
   "author": "Jace Babin",
   "license": "ISC",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "files": [
     "dist",
     "assets",
